@@ -1,52 +1,52 @@
 exports.seed = function (knex, Promise) {
 	return knex('ingredients').insert([
 		{
-			ingredients_name: 'rapeseed oil',
+			ingredients_name: 'tsp of rapeseed oil',
 		},
 		{
 			ingredients_name: 'red onion',
 		},
 		{
-			ingredients_name: 'butternut squash chunks',
+			ingredients_name: 'gram(s) of butternut squash chunks',
 		},
 		{
-			ingredients_name: 'broccoli',
+			ingredients_name: 'gram(s) of broccoli',
 		},
 		{
-			ingredients_name: 'fresh thyme',
+			ingredients_name: 'tbsp of fresh thyme',
 		},
 		{
-			ingredients_name: 'red & white quinoa',
+			ingredients_name: 'gram(s) of red & white quinoa',
 		},
 		{
-			ingredients_name: 'chopped parsley',
+			ingredients_name: 'tbsp chopped parsley',
 		},
 		{
-			ingredients_name: 'dried cranberries',
+			ingredients_name: 'handful of dried cranberries',
 		},
 		{
-			ingredients_name: 'pumpkin seeds',
+			ingredients_name: 'handful pumpkin seeds',
 		},
 		{
-			ingredients_name: 'balsamic vinegar',
+			ingredients_name: 'tbsp balsamic vinegar',
 		},
 		{
-			ingredients_name: 'feta cheese',
+			ingredients_name: 'gram(s) of feta cheese',
 		},
 		{
-			ingredients_name: 'button mushroom',
+			ingredients_name: 'button mushrooms',
 		},
 		{
-			ingredients_name: 'basmati rice',
+			ingredients_name: 'gram(s) of basmati rice',
 		},
 		{
-			ingredients_name: 'dried mushroom',
+			ingredients_name: 'dried mushrooms',
 		},
 		{
-			ingredients_name: 'fresh sage',
+			ingredients_name: 'tbsp fresh sage',
 		},
 		{
-			ingredients_name: 'gorgonzola',
+			ingredients_name: 'gram(s) of gorgonzola',
 		},
 	]);
 };
